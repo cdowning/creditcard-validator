@@ -1,0 +1,41 @@
+
+/*input.full {
+	width: 100%
+}*/
+input.full { padding: 9px; font-size: 14px;}
+div.input-wrapped.full {
+	position: relative
+}
+#validateCard span.card span {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 34px;
+	width: 50px
+}
+#validateCard span.card span.card-generic {
+	background: url("../images/generic.png") no-repeat 3px 4px
+}
+#validateCard span.card span.card-visa {
+	background: url("../images/visa.png") no-repeat 3px 4px
+}
+#validateCard span.card span.card-amex {
+	background: url("../images/amex.png") no-repeat 3px 4px
+}
+#validateCard span.card span.card-mastercard {
+	background: url("../images/mastercard.png") no-repeat 3px 4px
+}
+#validateCard span.card span.card-discover {
+	background: url("../images/discover.png") no-repeat 3px 4px
+}
+input#cardnumber {
+	padding-left: 55px !important
+}
+i.icon-ok {
+	color: #a7a9ac;
+	cursor: auto !important
+}
+i.icon-ok.valid {
+	color: #1b365d
+}
